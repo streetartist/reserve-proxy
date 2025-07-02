@@ -1,6 +1,9 @@
 {
-    "version": 2,
-    "routes": [
-      {"src": "/(.*)","dest": "https://lxl66566.github.io/ecustbook/$1"}
-    ]
+  "redirects": [
+    {
+      "source": "/:path*",
+      "destination": "https://lxl66566.github.io/:path*",
+      "permanent": false
+    }
+  ]
 }
