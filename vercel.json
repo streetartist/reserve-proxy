@@ -1,7 +1,6 @@
 {
     "version": 2,
     "routes": [
-      {"src": "/ecustbook/(.*)","dest": "https://lxl66566.github.io/ecustbook/$1"},
-      {"src": "/(.*)","dest": "https://lxl66566.github.io/$1"}
+      {"src": "/(.*)","dest": "https://lxl66566.github.io/ecustbook/$1"}
     ]
 }
